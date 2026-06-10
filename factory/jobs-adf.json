@@ -1,0 +1,15 @@
+{
+	"name": "jobs-adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "de95780c-2d3a-4e11-9b67-626d811d6305",
+		"tenantId": "18a3ee42-1446-4a2e-b4a4-63c84b12e443"
+	}
+}
