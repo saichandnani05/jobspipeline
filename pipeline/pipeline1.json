@@ -73,7 +73,16 @@
 		"parameters": {
 			"position": {
 				"type": "array",
-				"defaultValue": "['Data Engineer','Data Analyst','Python Engineer','Cloud Engineer']"
+				"defaultValue": [
+					"Data Engineer",
+					"Azure Data Engineer",
+					"Senior Data Engineer",
+					"Data Analyst",
+					"Business Analyst",
+					"Machine Learning Engineer",
+					"AI Engineer",
+					"Data Scientist"
+				]
 			}
 		},
 		"annotations": []
