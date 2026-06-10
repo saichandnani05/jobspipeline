@@ -5,8 +5,22 @@
 			"referenceName": "RestService1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"apiKey": {
+				"type": "string"
+			},
+			"cx": {
+				"type": "string"
+			},
+			"searchQuery": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": "@concat( '/customsearch/v1?key=', dataset().apiKey, '&cx=', dataset().cx, '&q=', replace(dataset().searchQuery,' ','%20'), '&num=10', '&start=1' )"
+		},
 		"schema": []
 	}
 }
